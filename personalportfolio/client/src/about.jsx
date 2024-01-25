@@ -5,6 +5,7 @@
     Date: Jan 22, 2024
 */
 import idphoto from './IDPhoto.jpg'
+import resume from './HoraceYauResume.pdf'
 
 export default function About() {
       return (
@@ -20,7 +21,7 @@ export default function About() {
              My target is to develop career on information technology for finance industry, and to build up <br/>
              professional skills on system architect design, project management, and technical support. <br/>
              <br/>
-             My resume is available <a href="./src/HoraceYauResume.pdf">here</a>.
+             My resume is available <a href={resume}>here</a>.
           </p>
         </>
       );
