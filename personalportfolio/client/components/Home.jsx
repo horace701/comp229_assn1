@@ -6,6 +6,7 @@
 */
 
 import About from '../src/about'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
         return (
@@ -14,7 +15,7 @@ export default function Home() {
             <p>Horace Yau welcomes you.<br/>
                Bringing you to explore the new journey in Canada.
                <br/>
-               You may find out more <a href="about">about me</a>.
+               You may find out more <Link to="/about">about me</Link>.
             </p>
             </>
         );
